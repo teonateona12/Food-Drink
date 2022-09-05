@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/66287790bb.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- NAV BAR -->
+
+    <nav>
+      <div class="nav__center">
+        <!-- nav header -->
+        <div class="nav__header">
+          <!-- <img src="img/logo.svg" class="logo" alt="" /> -->
+          <button class="nav__toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <ul class="links">
+          <li>
+            <a href="#home">home</a>
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#contact">contact</a>
+          </li>
+        </ul>
+        <!-- social media -->
+        <ul class="social__icons">
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-behance"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-sketch"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="home">
+      <h1 class="main-text">FOOD and DRINK page</h1>
+      <h2 class="page-name">Foods Page</h2>
+      <!-- SLIDER -->
+
+      <div class="flex">
+        <div class="food">
+          <div>
+            <div class="flex-two">
+              <img class="img" src="pizza.jpg" />
+            </div>
+            <p class="name"></p>
+            <p class="price"></p>
+            <div class="slide">
+              <button class="prev-food">
+                <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <p class="number-of-food">1</p>
+              <button class="next-food">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="country flex-two">
+          <div>
+            <h5 class="from"></h5>
+            <img class="country-img" src="https://flagcdn.com/w320/it.png" />
+            <h3 class="country-name"></h3>
+            <p class="country-population"></p>
+            <p class="country-region"></p>
+          </div>
+        </div>
+      </div>
+      <!-- PAGE -->
+      <div class="page">
+        <button class="prev">prev page</button>
+        <div class="num-div">
+          <p class="num">1</p>
+        </div>
+        <button class="next">next page</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
